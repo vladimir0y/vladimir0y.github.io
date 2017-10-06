@@ -1,0 +1,142 @@
+@font-face{
+	font-family:"Open Sans";
+	src: url('../fonts/OpenSans.ttf');
+}
+@font-face{
+	font-family: "Huntsman";
+	src:('../fonts/Huntsman.otf');
+}
+body, html{
+ padding: 0;
+ margin: 0;
+ font-family: "Open Sans", sans-serif;
+ color:#5e5e5e;
+}
+header {
+	position: relative;
+ 	width: 100%;
+ 	height: 50px;
+ 	padding-top: 10px;
+ 	padding-bottom:10px; 
+ 	border-bottom:1px solid rgba(255,255,255,0.1);
+ 	background: url('../images/mainexpf.jpg');
+ 	background-size: cover;
+}
+#face{
+	width: 100%;
+	height: 400px;
+float: right;
+display: flex;
+align-items: center;
+flex-direction: row;
+}
+#face2{
+	height: 100%;
+	width: 50%;
+	padding: 0;
+ margin: 0;
+	display:block;
+	background: url('../images/face2.jpg');
+	background-size: cover;
+}
+#face3{
+	height: 100%;
+	width: 50%;
+	padding: 0;
+ margin: 0;
+	display:block;
+	background: url('../images/face3.jpg');
+	background-size: cover;
+}
+#so{
+	padding-top:20px ;
+	text-align: center;
+	font-size: 3em;
+	height: 88px;
+	background: rgba(0,0,0,1);
+}
+#mainface{
+	width: 100%;
+	height: 560px;
+	background: url('../images/mainexp.jpg');
+	background-size: cover;
+}
+#mainFace{
+	width: 100%;
+	height: 70%;
+background-size: cover;
+}
+#headerInside{
+	width: 100%;
+	margin:0 auto;
+}
+#logo{
+	width:60px;
+	height: 60px;
+	float: left;
+	background: url('../images/carab.png') no-repeat;
+	background-size: contain;
+}
+#companyName{
+font-family: "Huntsman", sans-serif;
+float: left;
+margin-left: 15px;
+font-size: 22px;
+line-height: 50px;
+color:#fff;
+}
+#navWrap a:last-child {
+border-left: none;
+}
+#navWrap a:hover{
+background:rgba(0,0,255,0.3);
+}
+#nav-bar{
+float: right;
+display: flex;
+align-items: center;
+flex-direction: row;
+height: 50px;
+margin-right: 15px;
+}
+
+#language_switch{
+display: flex;
+align-items: center;
+flex-direction: row;
+float: top;
+font-size: 0.9em;
+margin-top:15px;
+margin-bottom: 45px;
+}
+#language_switch a {
+float:top;
+padding:4px;
+display: table-row;
+float: right;
+color:rgb(255,255,255);
+}
+#nav-bar a{
+display:block;
+height:70px;
+line-height: 70px;
+text-decoration: none;
+}
+#list{
+ height: 50px;
+    float:center;
+    display: flex;
+    align-items: center;
+	flex-direction: row;
+	margin-right: 50px;
+}
+#list a {
+display: block;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    text-decoration: none;
+    height: 70px;
+    line-height: 70px;
+    margin:20px;
+    font-size: 1.3em;
+}
