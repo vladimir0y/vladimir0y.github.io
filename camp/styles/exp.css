@@ -10,7 +10,6 @@ body, html{
  padding: 0;
  margin: 0;
  font-family: "Open Sans", sans-serif;
- color:#5e5e5e;
 }
 header {
 	position: relative;
@@ -21,6 +20,7 @@ header {
  	border-bottom:1px solid rgba(255,255,255,0.1);
  	background: url('../images/mainexpf.jpg');
  	background-size: cover;
+
 }
 #face{
 	width: 100%;
@@ -53,7 +53,8 @@ flex-direction: row;
 	text-align: center;
 	font-size: 3em;
 	height: 88px;
-	background: rgba(0,0,0,1);
+	color: rgb(255,255,255);
+	background-color: rgba(0,0,0,1);
 }
 #mainface{
 	width: 100%;
@@ -77,20 +78,16 @@ background-size: cover;
 	background: url('../images/carab.png') no-repeat;
 	background-size: contain;
 }
-#companyName{
+.companyName{
 font-family: "Huntsman", sans-serif;
 float: left;
 margin-left: 15px;
-font-size: 22px;
+font-size: 1.3em;
 line-height: 50px;
-color:#fff;
+text-decoration: none;
+color: rgb(255,255,255);
 }
-#navWrap a:last-child {
-border-left: none;
-}
-#navWrap a:hover{
-background:rgba(0,0,255,0.3);
-}
+
 #nav-bar{
 float: right;
 display: flex;
@@ -139,4 +136,47 @@ display: block;
     line-height: 70px;
     margin:20px;
     font-size: 1.3em;
+}
+.groups{
+	text-align: center;
+	vertical-align: middle;
+position:fixed;
+margin-top: 50px;
+height:205px;
+width:50px; 
+background-color: rgba(0,0,0,0.7);
+right: 0px;
+}
+
+#vk{
+	margin: 10px 0px;
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	background: url('../images/vk.png') no-repeat;
+	background-size: contain;
+}
+#faceb{
+	display: inline-block;
+	margin: 10px 0px;
+	width: 30px;
+	height: 30px;
+	background: url('../images/facebook.png') no-repeat;
+	background-size: contain;
+}
+#inst{
+	margin: 10px 0px;
+	display: inline-block;
+	width: 30px;
+	height:30px;
+	background: url('../images/instagram.png') no-repeat;
+	background-size: contain;
+}
+#twit{
+	display: inline-block;
+	margin: 10px 0px;
+	width: 30px;
+	height: 30px;
+	background: url('../images/twitter.png') no-repeat;
+	background-size: contain;
 }
